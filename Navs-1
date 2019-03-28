@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <nav class="nav justify-content-center">
+    <a class="nav-link active" href="#">Menu1</a>
+    <a class="nav-link" href="#">Menu2</a>
+    <a class="nav-link" href="#">Menu3</a>
+    <a class="nav-link  disabled">Menu4</a>
+   </nav>
+   
+   <ul class="nav flex-column">
+   <li class="nav-item">
+   <a class="nav-link" href="#">Menu5</a>
+   </li>
+   <li class="nav-item">
+   <a class="nav-link" href="#">Menu6</a>
+   </li>
+   <li class="nav-item">
+   <a class="nav-link disabled" href="#">Menu7</a>
+   </li><li class="nav-item">
+   <a class="nav-link" href="#">Menu8</a>
+   </li>
+   </ul>
+   
+     <nav class="nav nav-tabs justify-content-center">
+    <a class="nav-item nav-link active" href="#">Menu9</a>
+    <a class="nav-item nav-link" href="#">Menu10</a>
+    <a class="nav-item nav-link" href="#">Menu11</a>
+    <a class="nav-item nav-link  disabled">Menu12</a>
+   </nav>
+   
+     <nav class="nav nav-pills nav-fill justify-content-center mt-3">
+    <a class="nav-item nav-link active" href="#">Menu9</a>
+    <a class="nav-item nav-link" href="#">Menu10</a>
+    <a class="nav-item nav-link" href="#">Menu11</a>
+    <a class="nav-item nav-link  disabled">Menu12</a>
+   </nav>
+   
+    <nav class="nav justify-content-center mt-5">
+    <a class="nav-link active" href="#">Menu1</a>
+    <a class="nav-link" href="#">Menu2</a>
+    
+    <a class="nav-link dropdown dropdown-toggle" data-toggle="dropdown" href="#">
+     <div class="dropdown-menu">
+       <a class="dropdown-item" href="#">Drop1</a>
+       <a class="dropdown-item" href="#">Drop2</a>
+       <a class="dropdown-item" href="#">Drop3</a>
+       <a class="dropdown-item" href="#">Drop4</a>
+     </div>
+  
+    <a class="nav-link  disabled">Menu4</a>
+   </nav>
+</body>
+</html>
